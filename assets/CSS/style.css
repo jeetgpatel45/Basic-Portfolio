@@ -6,10 +6,12 @@
     }
     html, body {
         margin: 0% auto;
-        height: 100%;
+        min-height: 100%;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
-
+    html{
+        position: relative;
+    }
     .NAME {
         color: rgb(255, 170, 66);
     }
@@ -74,8 +76,9 @@
         width: 100%;
     }
     #container {
-        margin: 0px 120px 0px 120px;
+        margin: 0px 120px 10px 120px;
         min-height: 100%;
+        overflow: auto;
     }
     #about {
         width: 100%;
@@ -100,9 +103,13 @@
         font-weight: 500;
         font-size: 16px;
     }
-    #social {
+    .social {
         padding: 40px 0px 40px 0px;
         width: 100%;
+        overflow: auto;
+        margin-bottom: 100px;
+        float: left;
+        border: none;
     }
     #h1 {
         width: 100%;
@@ -116,6 +123,28 @@
     .icons {
         margin: 30px 50px 0px 0px;
     }
+    #strong {
+        background-color: rgb(43, 43, 43);
+        color: antiquewhite;
+        padding: 5px;
+    }
+    .projects {
+        background-color: rgb(43, 43, 43);
+        float: left;
+        width: 100%;
+        height: 70px;
+    }
+    .projects a {
+        color: antiquewhite;
+        text-decoration-color: none;
+        text-decoration: none;
+        width: 100%;
+        display: inline-block;
+        padding: 8px;
+    }
+    .projects a:hover {
+        color: rgb(255, 170, 66);
+    }
 
     /*this is footer*/
 
@@ -125,7 +154,12 @@
         padding: 25px;
         background-color: rgb(43, 43, 43);
         color: antiquewhite;
-        font-size: 12px
+        font-size: 12px;
+        position: absolute;
+        left: 0%;
+        bottom: 0%;
+        width: 100%;
+        display: inline-block;
     }
     #footer a {
         text-decoration: none;
@@ -133,6 +167,15 @@
     }
     #footer a:hover {
         color: rgb(255, 170, 66);
+    }
+    .number2 {
+        float: right;
+        width: 50%;
+        text-align: right;
+    }
+    .number {
+        display: inline-block;
+        width: 50%;
     }
 
 /* this is contact file*/

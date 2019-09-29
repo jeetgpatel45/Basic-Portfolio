@@ -132,7 +132,7 @@
         background-color: rgb(43, 43, 43);
         float: left;
         width: 100%;
-        height: 70px;
+        /* height: 70px; */
     }
     .projects a {
         color: antiquewhite;

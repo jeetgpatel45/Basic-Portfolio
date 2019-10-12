@@ -4,7 +4,8 @@
 
 
 # Project 1 Old Version of Pied Version:
-![image](./assets/images/project1.JPG) 
+<!-- ![image](./assets/images/project1.JPG) -->
+![Old Pied Piper](./assets/Images/project1.JPG) 
 
 # Project 2 Updated Pied Piper:
-![image](./assets/images/project2.JPG) 
+![Updated Pied Piper](./assets/Images/project2.JPG)
